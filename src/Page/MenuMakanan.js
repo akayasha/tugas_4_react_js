@@ -66,7 +66,11 @@ class MenuMakanan extends Component {
   }
 
   batal(){
+    Array.from(document.querySelectorAll("input")).forEach(
+    input => (input.value = "")
+  );
     this.setState({
+      itemvalues: [{}],
       pesan : " ",
       jumlah : 0,
       tampil :false,
