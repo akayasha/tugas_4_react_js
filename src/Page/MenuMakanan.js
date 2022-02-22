@@ -129,7 +129,7 @@ class MenuMakanan extends Component {
       <br/>
       <input type = "text"
             placeholder = "jumlah pesanan anda"
-            onChange ={e => this.pilihpesanan("jumlah",e)} />
+            onChange ={e => this.pilihpesanan("pesan",e)} />
 
       <input type='number'
               placeholder ='jumlah pesanan'
